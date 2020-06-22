@@ -173,7 +173,7 @@ exports.start = function(SETUP) {
 
     .addField('**FiveM Server Address**', '```fivem.nepalrp.com```')
     .addField('**TS3 Server Address & Password**', '```ts.nepalrp.com:9104 \nnepalroleplay ```')
-   .setDescription('**Server will Re-start in every 12 hours [6:30 NST] **\n\u200b\n**Direct Connect**\nFivem server <fivem://connect/fivem.nepalrp.com>\nTS3 Server <ts3server://ts.nepalrp.com/?port=9104>\n\u200b\n')
+    .setDescription('**Server will Re-start in every 12 hours [6:30 NST] **\n\u200b\n**Direct Connect**\nFivem server <fivem://connect/fivem.nepalrp.com>\nTS3 Server <ts3server://ts.nepalrp.com/?port=9104>\n\u200b\n')
     .setColor(0x32cd32)
     .setFooter(TICK_N % 2 === 0 ? '🟡 NepalRP' : '🟢 NepalRP')
     .setTimestamp(new Date())
